@@ -73,10 +73,12 @@ body {
     border-color: red;
 }
 
-#form input:focus{
+#form input:focus {
     border-color: blue;
-    box-shadow: 1px 1px 1px 1px blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+    outline: none; /* Removes the default focus outline */
 }
+
 #form input{
     border-color: #E5E7EB;
     width: 250px;
@@ -113,4 +115,14 @@ body {
     outline: none;
     font-weight: bold;
     font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    #header #first, #header #second {
+        font-size: 4vw; /* Adjust font size for smaller screens */
+    }
+
+    #footer #create-account, #footer #log-in {
+        font-size: 2vw; /* Adjust button text size for smaller screens */
+    }
 }
