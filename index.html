@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="image" >
+        <img src="images/photo-1716712634103-93764ba81f6f.avif" alt="girl with black dress">
+    </div>
+    <div class="rest">
+        <div id="header">
+            <h2 id="first">This is not a real online service! You know you need something <br>like this in your life
+                to help you realize your deepest dreams.
+                <br>
+                Sign up <em>now</em> to get started.
+            </h2>
+            <h2 id="second">
+                <em>You know you want to.</em>
+            </h2>
+        </div>
+        <div id="form">
+            <h2>Lets do this!</h2>
+            <fieldset>
+                <div class="item">
+                    <label for="first-name">FIRST NAME</label>
+                    <br>
+                    <input type="text" id="first-name" name="first-name">
+                </div>
+                <div class="item">
+                    <label for="last-name">LAST NAME</label>
+                    <br>
+                    <input type="text" id="last-name" name="last-name">
+                </div>
+                <div class="item">
+                    <label for="email">EMAIL</label>
+                    <br>
+                    <input type="email" id="email" name="email" required>
+                </div>    
+                <div class="item">
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <br>
+                    <input type="tel" id="phone-number" name="phone-number">
+                </div>
+                <div class="item">
+                    <label for="password">PASSWORD</label>
+                    <br>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="item">
+                    <label for="confirm">CONFIRM PASSWORD</label>
+                    <br>
+                    <input type="password" id="confirm" name="confirm-password" required>
+                </div>
+            </fieldset>
+
+        </div>
+        <div id="footer">
+            <button type="submit" id="create-account" >Create Account</button>
+            <p>Already have an account? <button type="button" id="log-in">Log in</button></p>
+
+        </div>
+
+    </div>
+</body>
+</html>
